@@ -1,6 +1,6 @@
-import navigation from './navigation.js'
-import works from './works.js'
-import testimonials from './testimonials.js'
+import navigation from 'js/navigation.js'
+import works from 'js/works.js'
+import testimonials from 'js/testimonials.js'
 navigation();
 works();
 testimonials();
