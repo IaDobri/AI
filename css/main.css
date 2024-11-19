@@ -15,7 +15,7 @@ body {
   font-family: 'Chivo', sans-serif;
   font-size: 1.6rem;
   color: #000000;
-  background-color: #8ab6d4;
+  background-color: #ffffff;
 }
 
 ul {
@@ -26,6 +26,17 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #000000;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link {
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
 }
 
 input,
